@@ -1,0 +1,11 @@
+name: train-tensorflow-resume-training
+dependencies:
+- pip:
+  - azureml-sdk
+  - azureml-widgets
+  - pandas
+  - keras
+  - tensorflow-gpu==1.13.2
+  - matplotlib
+  - azureml-dataprep
+  - fuse

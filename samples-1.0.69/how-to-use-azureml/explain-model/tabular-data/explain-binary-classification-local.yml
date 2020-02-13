@@ -1,0 +1,7 @@
+name: explain-binary-classification-local
+dependencies:
+- pip:
+  - azureml-sdk
+  - interpret
+  - azureml-interpret
+  - azureml-contrib-interpret

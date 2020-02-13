@@ -1,0 +1,8 @@
+name: train-explain-model-locally-and-deploy
+dependencies:
+- pip:
+  - azureml-sdk
+  - interpret
+  - azureml-interpret
+  - azureml-contrib-interpret
+  - sklearn-pandas

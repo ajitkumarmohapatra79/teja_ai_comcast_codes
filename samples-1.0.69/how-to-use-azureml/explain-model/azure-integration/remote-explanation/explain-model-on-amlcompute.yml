@@ -1,0 +1,9 @@
+name: explain-model-on-amlcompute
+dependencies:
+- pip:
+  - azureml-sdk
+  - interpret
+  - azureml-interpret
+  - azureml-contrib-interpret
+  - sklearn-pandas
+  - azureml-dataprep
